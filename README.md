@@ -14,8 +14,9 @@ You can install the development version of naomiekouamela from
 [GitHub](https://github.com/) with:
 
 ``` r
+# in the working directory
 # install.packages("devtools")
-devtools::install_github("NKouamela/depot_eval3_rshiny")
+devtools::load_all(".")
 ```
 
 ## Example
