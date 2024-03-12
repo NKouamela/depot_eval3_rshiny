@@ -1,0 +1,19 @@
+Package: naomiekouamela
+Type: Package
+Title: évaluation de niveau - formation shiny
+Version: 0.1.0
+Author: Naomie KOUAMELA
+Maintainer: Naomie KOUAMELA <naomie.kouamela@rte-france.com>
+Description: 3 fonctions : dire bonjuour, mise à dispo d'un jeu de données pays et mise à dispo d'un fichier chaton.png.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    assertthat,
+    glue
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
